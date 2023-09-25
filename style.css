@@ -1,0 +1,60 @@
+
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                background-color: #333;
+                color: red;
+                text-align: center;
+                padding: 1em;
+            }
+            .content {
+                max-width: 800px;
+                margin: 2em auto;
+                padding: 0 1em;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            ul {
+                list-style-type: disc;
+                padding-left: 2em;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 2em;
+                border: 2px solid black;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: center;
+            }
+            li{
+                background-color: blueviolet;
+            }
+            h2{
+                color: blueviolet;
+            }
+            /* Define the default style for the div */
+.color-change-div {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    transition: color 0.3s; /* Add a smooth transition for color changes */
+}
+
+/* Define the hover effect to change the font color to sky blue */
+.color-change-div:hover {
+    color: skyblue;
+}
+/* Apply the styles to all headers */
+h1, h2, h3, h4, h5, h6 {
+    color: red;
+    font-size: 40px;
+    font-family: Fantasy, sans-serif;
+}
