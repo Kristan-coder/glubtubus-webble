@@ -6,7 +6,7 @@
             }
             header {
                 background-color: #333;
-                color: red;
+                color: purple;
                 text-align: center;
                 padding: 1em;
             }
@@ -54,7 +54,24 @@
 }
 /* Apply the styles to all headers */
 h1, h2, h3, h4, h5, h6 {
-    color: red;
+    color: purple;
     font-size: 40px;
     font-family: Fantasy, sans-serif;
+}
+/* Style for the milestone container */
+.milestone-container {
+    display: flex; /* Use flexbox to create columns */
+    justify-content: center; /* Center the columns horizontally */
+    align-items: center; /* Center the columns vertically */
+}
+
+/* Style for each column */
+.column {
+    flex: 1; /* Distribute equal width to both columns */
+    padding: 20px; /* Add spacing around the content */
+}
+
+/* Style for the image inside the first column */
+.column img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
 }
